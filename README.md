@@ -98,6 +98,8 @@
 
 👉 **Get them from the [Releases page](../../releases/latest).**
 
+👉 **Get them from the [Website](https://vanilla-music.netlify.app/).**
+
 > [!NOTE]
 > The apps are not code-signed yet. Windows shows a SmartScreen notice once - click **More info → Run anyway**. On a Mac, right-click the app → **Open** (or run `xattr -cr "/Applications/Vanilla Music.app"`).
 
