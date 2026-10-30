@@ -8,7 +8,7 @@
 
 A free music player for **Windows**, **macOS** and **Android** - your own library and YouTube in one place, with big **full-screen synced lyrics** and a tiny **mini player**.
 
-[**Download**](../../releases/latest) &nbsp;•&nbsp; [**Discord**](https://discord.gg/weRFDT6Ppf) &nbsp;•&nbsp; [**Website**](https://starlight-fm.netlify.app)
+[**Download**](../../releases/latest) &nbsp;•&nbsp; [**Discord**](https://discord.gg/weRFDT6Ppf) &nbsp;•&nbsp; [**Website**](https://vanilla-music.netlify.app)
 
 </div>
 
