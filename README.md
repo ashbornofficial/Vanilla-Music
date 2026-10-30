@@ -1,84 +1,226 @@
 <div align="center">
 
-<img src="logo.png" width="120" alt="Vanilla Music">
+<img src="docs/assets/banner.svg" alt="Vanilla Music - Music that moves with you" width="100%">
 
-# Vanilla Music
+<br>
 
-### Music that moves with you.
+<img src="docs/assets/typing.svg" alt="Full-screen synced lyrics · mini player · library + YouTube" width="720">
 
-A free music player for **Windows**, **macOS** and **Android** - your own library and YouTube in one place, with big **full-screen synced lyrics** and a tiny **mini player**.
+<br><br>
 
-[**Download**](../../releases/latest) &nbsp;•&nbsp; [**Discord**](https://discord.gg/weRFDT6Ppf) &nbsp;•&nbsp; [**Website**](https://vanilla-music.netlify.app)
+[![Download](https://img.shields.io/badge/⬇_Download-latest_release-ff8a2b?style=for-the-badge&labelColor=1a1a1f)](../../releases/latest)
+[![Discord](https://img.shields.io/badge/Discord-join_the_server-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a1f)](https://discord.gg/weRFDT6Ppf)
+[![Website](https://img.shields.io/badge/Website-visit-8b5cff?style=for-the-badge&labelColor=1a1a1f)](https://vanilla-music.netlify.app)
+
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows11&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor_8-119EFF?style=flat-square&logo=capacitor&logoColor=white)
+![Version](https://img.shields.io/badge/version-1.6-ff8a2b?style=flat-square)
+![Free](https://img.shields.io/badge/price-free-34d399?style=flat-square)
+
+<img src="docs/assets/stats.svg" alt="3 platforms, 17 looks, 0 ads, 100% free" width="760">
 
 </div>
 
----
+<img src="docs/assets/divider.svg" alt="" width="100%">
 
-## Screenshots
+## ✨ See it in action
 
-<p align="center">
-  <img src="screenshots/d-home.png" width="85%" alt="Home">
-</p>
-<p align="center">
-  <img src="screenshots/d-library.png" width="42%" alt="Library">
-  <img src="screenshots/mini.png" width="42%" alt="Mini player">
-</p>
-<p align="center">
-  <img src="screenshots/m-home.png" width="22%" alt="Android home">
-  <img src="screenshots/m-lib.png" width="22%" alt="Android library">
-  <img src="screenshots/m-player.png" width="22%" alt="Android player">
-</p>
+<div align="center">
+  <img src="docs/assets/demo.gif" alt="Vanilla Music demo: desktop app, full-screen lyrics and mini player" width="640">
+  <br>
+  <sub>Desktop app → full-screen lyrics → mini player (cut from the 44-second promo video)</sub>
+</div>
 
-## Features
+<br>
 
-| | |
-|---|---|
-| **Library + YouTube** | Add songs or folders, or search any song on YouTube and play it right away. Drag & drop works. |
-| **Full-screen lyrics** | Press `L` (or the mic button) for big synced lyrics. Tap a line to jump to it. |
-| **Mini player** | Shrink the app into a small always-on-top player (Windows & Mac). |
-| **Now Playing card** | Cover, title and play/pause in the sidebar - click it to open lyrics. |
-| **Download songs** | Save YouTube songs as audio files. |
-| **AI DJ & mixes** | Mood mixes and a smart shuffle made from your own library (all local). |
-| **Playlists, liked songs, radio** | Always one tap away. |
-| **Themes** | Dark or light, 9 accent colours, fonts, roundness and density. Default: dark + orange (white + orange on Android). |
-| **Android extras** | Background play, lock-screen controls, long-press shortcuts (*About developer*, *Search songs*). |
+<div align="center">
+  <img src="docs/screenshots/d-home.png" width="88%" alt="Home screen">
+</div>
 
-## Download
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/d-library.png" alt="Library"><br><sub><b>Library</b> - your files and every download, with a Now Playing card</sub></td>
+    <td width="50%" align="center"><img src="docs/screenshots/mini.png" alt="Mini player" width="92%"><br><sub><b>Mini player</b> - tiny, always on top (Windows &amp; Mac)</sub></td>
+  </tr>
+</table>
 
-Get the latest build from the [**Releases**](../../releases/latest) page:
+<div align="center">
+  <img src="docs/screenshots/m-home.png" width="22%" alt="Android home">
+  <img src="docs/screenshots/m-player.png" width="22%" alt="Android library">
+  <img src="docs/screenshots/m-playing.png" width="22%" alt="Android now playing">
+  <br><sub><b>Android</b> - white &amp; orange by default, background play with lock-screen controls</sub>
+</div>
 
-- **Windows** - `Vanilla-Music-<version>-Windows-x64.exe` (installer) or `...-Windows-Portable.exe`
-- **Android** - `Vanilla-Music-<version>-Android.apk` (allow *Install unknown apps* when asked)
-- **macOS** - build from source (see below) until a `.dmg` is attached
+<img src="docs/assets/divider.svg" alt="" width="100%">
 
-> Windows may show a SmartScreen notice because the installer is not code-signed yet: **More info -> Run anyway**.
+## 🚀 Features
 
-## Build from source
+| | Feature | What you get |
+|:-:|---|---|
+| 🎵 | **Library + YouTube** | Add songs or folders (drag & drop works) or search any song on YouTube and play it instantly. |
+| 🎤 | **Full-screen lyrics** | Big synced lines that glow with the song, cover-colour backdrop, tap a line to seek. Press <kbd>L</kbd>. |
+| 🔎 | **Lyrics almost everywhere** | Smart title cleaning, then LRCLIB → NetEase → lyrics.ovh, so far fewer "not found". |
+| 🪟 | **Mini player** | The whole app shrinks into a small always-on-top player with seek, volume and controls. |
+| ⬇️ | **Downloads → library** | Save a YouTube song and it lands in **Library → Local files** automatically, ready offline. |
+| 🔥 | **A busy Home** | *Because you listened*, *Trending now*, *Hot in India*, mood mixes, radio. |
+| ✨ | **AI DJ & mixes** | Local smart shuffle and mood mixes - nothing is sent to an AI service. |
+| 🎨 | **17 looks** | AMOLED, Midnight, Ocean, Forest, Rose, Sunset, Mocha, Nord, Dracula, Neon, Paper, Cream, Mint, Sky, Lavender, Peach + 17 accent colours. |
+| 🔋 | **Android background play** | Foreground service, wake & Wi-Fi locks, lock-screen controls, battery-optimisation helper. |
+| 🔒 | **Private by design** | No account, no ads, no analytics. Your library stays on your device. |
 
-```bash
-npm install
-npm run dev          # desktop app in development
-npm run dist:win     # Windows installer + portable
-npm run dist:mac     # macOS dmg + zip (run this on a Mac)
-npm run android:apk  # debug APK (needs JDK 21 + Android SDK)
+<details>
+<summary><b>🎹 Keyboard shortcuts</b></summary>
+<br>
+
+| Key | Action | Key | Action |
+|---|---|---|---|
+| <kbd>Space</kbd> | Play / pause | <kbd>L</kbd> | Full-screen lyrics |
+| <kbd>←</kbd> <kbd>→</kbd> | Seek 5 s | <kbd>Shift</kbd>+<kbd>←</kbd>/<kbd>→</kbd> | Previous / next |
+| <kbd>↑</kbd> <kbd>↓</kbd> | Volume | <kbd>M</kbd> | Mute |
+| <kbd>S</kbd> | Shuffle | <kbd>Ctrl</kbd>+<kbd>K</kbd> | Search |
+
+</details>
+
+<img src="docs/assets/divider.svg" alt="" width="100%">
+
+## ⬇️ Download
+
+| Platform | File | Notes |
+|:-:|---|---|
+| 🪟 **Windows** | `Vanilla-Music-<version>-Windows-x64.exe` · `...-Windows-Portable.exe` | Windows 10/11, 64-bit. Custom setup wizard. |
+| 🤖 **Android** | `Vanilla-Music-<version>-Android.apk` | Android 8+. Allow *Install unknown apps* when asked. |
+| 🍎 **macOS** | `...-macOS-arm64.dmg` · `...-macOS-x64.dmg` | Coming soon - or build it yourself, see below. |
+
+👉 **Get them from the [Releases page](../../releases/latest).**
+
+> [!NOTE]
+> The apps are not code-signed yet. Windows shows a SmartScreen notice once - click **More info → Run anyway**. On a Mac, right-click the app → **Open** (or run `xattr -cr "/Applications/Vanilla Music.app"`).
+
+<img src="docs/assets/divider.svg" alt="" width="100%">
+
+## 🧩 How it works
+
+```mermaid
+flowchart LR
+  UI["React 19 + Vite UI<br/>(one codebase)"] --> E["Electron<br/>Windows · macOS"]
+  UI --> C["Capacitor 8<br/>Android"]
+  E --> Y1["yt-dlp<br/>YouTube search · stream · download"]
+  C --> Y2["NewPipe Extractor<br/>YouTube search · stream"]
+  E --> M["Mini player window"]
+  C --> S["Foreground media service<br/>lock screen · wake lock"]
+  UI --> L["Lyrics engine<br/>LRCLIB → NetEase → lyrics.ovh"]
+  E --> D["Downloads → Music/Vanilla Music<br/>auto-added to library"]
+  C --> D
 ```
 
-Tech: Electron, React 19, Vite, Capacitor 8 (Android), NewPipe Extractor, yt-dlp, LRCLIB lyrics.
+<details>
+<summary><b>📁 Project structure</b></summary>
+<br>
 
-## Shortcuts
+```text
+Vanilla-Music/
+├─ src/                 React app (shared by desktop and phone)
+│  ├─ components/       TopBar, Sidebar, LyricsView, ThemesCard, ...
+│  ├─ mobile/           Phone shell (tabs, full-screen player)
+│  ├─ compact/          Mini player window
+│  └─ lib/              api bridge, theme, lyrics, engine, titles
+├─ electron/            main.js + preload.js (windows, yt-dlp, downloads, IPC)
+├─ android/             Capacitor project + native plugin (Java)
+├─ build/               icons, installer art, NSIS script, licence
+├─ tools/               icon + installer artwork generators
+└─ .github/workflows/   Mac build on GitHub's cloud Macs
+```
 
-`Space` play/pause · `L` lyrics · `S` shuffle · `M` mute · `←/→` seek · `Shift+←/→` previous/next · `Ctrl+K` search
+</details>
 
-## Privacy
+<img src="docs/assets/divider.svg" alt="" width="100%">
 
-No accounts, no ads, no analytics. Your library stays on your device. The app goes online only for YouTube and lyrics.
+## 🛠️ Build from source
 
-## Community
+```bash
+git clone https://github.com/ashbornofficial/Vanilla-Music.git
+cd Vanilla-Music
+npm install
 
-Join the [Discord](https://discord.gg/weRFDT6Ppf) for help, ideas and updates.
+npm run dev            # desktop app in development
+npm run dist:win       # Windows installer + portable   -> release/
+npm run dist:mac       # macOS dmg + zip (run on a Mac)
+npm run android:apk    # Android debug APK (JDK 21 + Android SDK)
+```
 
-## Licence
+<details>
+<summary><b>🍎 No Mac? Build the Mac version on GitHub</b></summary>
+<br>
 
-Proprietary - free for personal, non-commercial use. Third-party components keep their own licences (Electron, React, Vite, Capacitor, NewPipe Extractor, Lucide, music-metadata, yt-dlp). Lyrics from LRCLIB.
+1. Push the repo (the workflow lives in `.github/workflows/build-mac.yml`).
+2. **Actions → Build macOS → Run workflow** (or push a tag like `v1.6.1`).
+3. After ~10 minutes download the `Vanilla-Music-macOS` artifact: `.dmg` + `.zip` for Intel and Apple Silicon.
 
-Made with love by **Ashborn**.
+</details>
+
+<details>
+<summary><b>🤖 Android details</b></summary>
+<br>
+
+See [`ANDROID.md`](ANDROID.md): file import, NewPipe extractor, downloads to `Music/Vanilla Music`, background-play service and launcher shortcuts (`vanillamusic://developer`, `vanillamusic://search`).
+
+</details>
+
+<img src="docs/assets/divider.svg" alt="" width="100%">
+
+## 🗺️ Roadmap
+
+- [x] Full-screen synced lyrics
+- [x] Mini player (Windows & Mac)
+- [x] Downloads added to the library automatically
+- [x] Multi-source lyrics + smart title cleaning
+- [x] 17 looks, Trending & "Because you listened"
+- [x] Rebuilt Android background play
+- [ ] Ready-made macOS `.dmg` on the Releases page
+- [ ] Code-signed Windows installer
+- [ ] iOS
+- [ ] Manual lyrics (paste / `.lrc` file)
+- [ ] Sleep timer & equalizer
+
+Have an idea? Tell us on **[Discord](https://discord.gg/weRFDT6Ppf)** or open an issue.
+
+## ❓ FAQ
+
+<details><summary><b>Where do my downloads go?</b></summary>
+<br>Windows/Mac: <code>Music\Vanilla Music</code>. Android: <code>Music/Vanilla Music</code>. They are also added to <b>Library → Local files</b> automatically.
+</details>
+
+<details><summary><b>Music stops with the screen off on Android</b></summary>
+<br>Open <b>Settings → Background play → Allow</b> and, on phones with strict battery savers (Xiaomi, Oppo, Vivo, Samsung), set the app's battery to "No restrictions".
+</details>
+
+<details><summary><b>Lyrics are missing for a song</b></summary>
+<br>The app searches LRCLIB, NetEase and lyrics.ovh. If none has it you will see "No lyrics found".
+</details>
+
+<details><summary><b>Is it really free? Where does the music come from?</b></summary>
+<br>Yes - free, no ads. Vanilla Music plays files you own and public YouTube content you choose. It does not host any music.
+</details>
+
+## 🔐 Privacy
+
+No accounts, no ads, no analytics. The library, playlists and settings stay on your device. The app goes online only for YouTube and lyrics. Full details: [Privacy Policy](https://vanilla-music.netlify.app/privacy.html).
+
+## 📜 Licence & credits
+
+Proprietary - free for personal, non-commercial use (see [`LICENSE`](LICENSE)). Built with Electron, React, Vite, Capacitor, [NewPipe Extractor](https://github.com/TeamNewPipe/NewPipeExtractor), [yt-dlp](https://github.com/yt-dlp/yt-dlp), Lucide icons and music-metadata. Lyrics from [LRCLIB](https://lrclib.net). YouTube is a trademark of Google LLC; this project is not affiliated with YouTube or Google.
+
+<div align="center">
+
+<img src="docs/assets/divider.svg" alt="" width="60%">
+
+**Made with ♥ by [Ashborn](https://github.com/ashbornofficial)** · [Discord](https://discord.gg/weRFDT6Ppf)
+
+<sub>If you like it, drop a ⭐ on the repo - it really helps.</sub>
+
+</div>
